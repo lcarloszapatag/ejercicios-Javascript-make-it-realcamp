@@ -1,78 +1,123 @@
-# Ejercicios día 3
+# Ejercicios día 4
 
 Recuerda que puedes hacer preguntas en el [Foro de Make It Real](https://foro.makeitreal.camp/c/curso-javascript-sept-2020/6).
 
-## Ejercicio 12
+## Ejercicio 18
 
-Escribe un programa que le pida al usuario ingresar una frase. El programa debe imprimir la frase en la consola 10 veces.
+Crea un programa a partir de las siguientes instrucciones:
 
-**Nota:** utiliza un ciclo para imprimir la frase las 10 veces.
+1. Crea una variable llamada `nombres` con un arreglo que tenga los siguientes elementos: "Pedro", "Pablo", "María", "Juan", "Diana".
+2. Pídele al usuario que ingrese un nombre e insértalo al final del arreglo que creaste en el paso 1.
+3. Pídele al usuario que ingrese otro nombre y reemplaza la tercera posición del arreglo con este valor.
+4. Recorre el arreglo e imprímelo.
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-12/407).
-
-## Ejercicio 13
-
-Escribe un programa que le pida al usuario una frase y un número. El programa debe imprimir la frase en la consola el número de veces que ingresó el usuario.
-
-Por ejemplo, si el usuario ingresó la frase "Hola Mundo" y el número 5, el programa debe imprimir "Hola Mundo" 5 veces:
+Un ejemplo de cómo se comportaría el programa en la consola sería el siguiente:
 
 ```
-Hola Mundo
-Hola Mundo
-Hola Mundo
-Hola Mundo
-Hola Mundo
+Ingresa un nombre> Camilo
+Ingresa otro nombre> Ariel
+Pedro
+Pablo
+Ariel
+Juan
+Diana
+Camilo
 ```
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-13/408).
+Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-18/468).
 
-## Ejercicio 14
+## Ejercicio 19
 
-Escribe un programa para la consola que le pida al usuario un número e imprima los números desde 1 hasta el número.
+Escribe un programa que:
 
-Por ejemplo, si el usuario ingresa el número 5, el programa de be imprimir:
+1. Le pida al usuario un número y cree un arreglo de números empezando en el 1 hasta el número que el usuario ingrese (incluyéndolo)
+2. Elimine el segundo elemento.
+3. Recorra e imprima el arreglo.
+
+Ejemplo:
 
 ```
+Ingresa un número> 5
 1
-2
 3
 4
 5
 ```
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-14/409).
+**Nota:** los 3 pasos de este ejercicio se deben realizar con programación según lo visto en clase.
 
-## Ejercicio 15
+Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-19/469).
 
-Escribe un programa para la consola que le pida al usuario dos números e imprima en la consola los números en ese rango. Por ejemplo, si el usuario ingresa 5 como primer número y 10 como segundo número, el programa debe imprimir:
+## Ejercicio 20
+
+Imprime la matriz en la consola, el resultado final debe ser el siguiente:
+
+```javascript
+const mat = [
+  ["Pablo", "Maria", "Pedro"],
+  ["Diana", "Juan", "Federico"],
+  ["Roberto", "Daniel", "Sandra"]
+];
+```
+
+```markdown
+Grupo 1:
+  Pablo
+  Maria
+  Pedro
+Grupo 2:
+  Diana
+  Juan
+  Federico
+Grupo 3:
+  Roberto
+  Daniel
+  Sandra
+```
+
+**Nota 1:** utiliza ciclos anidados para solucionar este ejercicio
+**Nota 2:** agrega dos espacios al principio de cada nombre
+
+Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-20/470).
+
+## Ejercicio 21
+
+Completa el siguiente programa para imprimir los números que sean mayores a 10.
+
+```javascript
+const nums = [1, 23, 5, 8, 40, 12, 2, 67, 24, 9, 39]
+// escribe tu código acá
+```
+
+El resultado debería ser el siguiente:
 
 ```
-5
-6
-7
-8
-9
-10
+23
+40
+12
+67
+24
+39
 ```
 
-Nota 1: Puedes asumir que el primer número siempre va a ser menor o igual que el segundo.
+**Nota:** este ejercicio lo debes hacer con ciclos y sin ayuda de la función `filter` de JavaScript. Al terminarlo cambia el arreglo original para verificar que funcione con otros números.
 
-Nota 2: Fíjate que se imprimen también los números en los límites, en el ejemplo el 5 y el 10.
+Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-21/471).
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-15/410).
+## Ejercicio 22
 
-## Ejercicio 16
+Completa el siguiente programa e imprime la cantidad de unos (1) que haya en el arreglo:
 
-Escribe un programa que:
+```javascript
+const nums = [1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1]
+```
 
-1. Le pida al usuario un string (una cadena de texto).
-2. Si el string es "salir" (todo en minúsculas) el programa debe imprimir en la consola "Hasta pronto!" y terminar.
-3. De lo contrario imprime en la consola lo que el usuario ingresó y repite el proceso desde el paso 1.
+El resultado debería ser el siguiente:
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-16/411).
+```
+11
+```
 
-## Ejercicio 17
+**Nota:** este ejercicio lo debes hacer con ciclos y sin ayuda de la función `filter` de JavaScript. Al terminarlo, cambia el arreglo original para verificar que funcione con otras combinaciones de ceros y unos.
 
-Escribe un programa que piense un número de forma aleatoria y le pida al usuario que lo trate de adivinar (como en uno de los ejercicios anteriores). La diferencia es que esta vez el usuario puede intentar indefinidamente hasta que encuentre el número.
-
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-17/412).
+Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-22/472).
