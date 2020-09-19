@@ -1,3 +1,6 @@
+[![Clase 1 y ejercicios de javascript del curso gratuito maike it Real](http://img.youtube.com/vi/yblTITxsugQ/0.jpg)](http://www.youtube.com/watch?v=yblTITxsugQ "Introducción a JavaScript - Día 1")
+
+
 # Ejercicios día 1
 
 Recuerda que puedes hacer preguntas en el [Foro de Make It Real](https://foro.makeitreal.camp/c/curso-javascript-sept-2020/6).
