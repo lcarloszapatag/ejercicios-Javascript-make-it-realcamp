@@ -1,38 +1,36 @@
-# ejercicios-Javascript-makeitrealcamp
-Ejercicios de javascript del curso gratuito maike it Real 
-# Ejercicios día 1
+# Introducción a JavaScript
 
-Recuerda que puedes hacer preguntas en el [Foro de Make It Real](https://foro.makeitreal.camp/c/curso-javascript-sept-2020/6).
+¡Hola! En este curso aprenderás las bases de JavaScript, el lenguaje más popular de la actualidad. Para más información y registro ingresa a [este link](https://makeitreal.camp/introduccion-a-javascript?utm_source=github&utm_medium=web&utm_campaign=inbound).
 
-## Ejercicio 1
+## Requisitos
 
-Escribe un programa que le pida al usuario ingresar una frase y la imprima en la consola.
+Para tomar este curso necesitarás:
 
-Recuerda que para pedirle al usuario que escriba una frase debes utilizar el método `prompt()` y para escribir en la consola debes utilizar el método `console.log()`.
+* Un computador con al menos 4GB de RAM con cualquier sistema operativo.
+* Conexión a Internet de al menos 2Mbps.
+* Una cuenta en [Github](https://github.com/).
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-1/30).
+## Metodología
 
-## Ejercicio 2
+Se realizarán sesiones en vivo de aproximadamente una hora al día. Luego se asignarán ejercicios para hacer en parejas.
 
-Escribe un programa que le pregunte al usuario su nombre e imprima "Hola " seguido del nombre y un signo de exclamación.
+## Herramientas
 
-Por ejemplo, si el usuario ingresa "Pedro" el programa debe imprimir en la consola "Hola Pedro!".
+Todas las herramientas están en Internet así que no necesitarás instalar nada en tu computador. Podrás autenticarte utilizando tu cuenta de [Github](https://github.com/):
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-2/31)
+* [Repl.it](https://repl.it/) - Un editor de texto en línea donde vas a realizar los ejercicios.
+* [Guías de Make It Real](https://guias.makeitreal.camp/javascript-i) - Recurso de apoyo.
+* [Foro de Make It Real](https://foro.makeitreal.camp/) - En este foro podrás hacer tus preguntas y compartir tus soluciones a los ejercicios.
+* Parejas - El generador de parejas de Make It Real. Se compartirá el link al finalizar cada sesión.
 
-## Ejercicio 3
+## Trabajo en parejas (pair programming)
 
-Escribe un programa que le pida al usuario ingresar un número, luego le pide un segundo número, e imprima en la consola la suma de los dos números que ingresó el usuario.
+Para los ejercicios vas a trabajar con una pareja a través de videollamada. El trabajo en parejas es una técnica muy popular con varias ventajas:
 
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-2/32)
+* Ayuda a mantener la concentración.
+* Es una excelente oportunidad para aprender y/o enseñar.
+* Puedes conocer personas que también están aprendiendo!
 
-## Ejercicio 4
+La idea del trabajo en parejas es que haya **una persona que dicta y otra que escribe**. Idealmente la persona que dicta sabe cómo hacer el ejercicio y la persona que escribe va aprendiendo y ayuda a corregir. Sin embargo, en este proceso de aprendizaje es posible el trabajo en parejas sea un poco caótico y que los dos terminen escribiendo, tienen que ir encontrando la mejor forma de trabajo.
 
-Escribe un programa que le pida al usuario su año de nacimiento e imprima su edad actual en la consola con la frase "Tienes X años". Por ejemplo, asumiendo que el año actual es 2020 y el usuario ingresa 2000, el programa debe imprimir en la consola:
-
-```
-Tienes 20 años
-```
-
-Comparte tu respuesta [en este enlace](https://foro.makeitreal.camp/t/respuestas-ejercicio-2/33)
 
