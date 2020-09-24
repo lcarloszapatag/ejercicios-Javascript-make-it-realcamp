@@ -1,3 +1,5 @@
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/gSTik8GpDG4/1.jpg)](https://youtu.be/gSTik8GpDG4h)
+
 # Ejercicios día 8
 
 Recuerda que puedes hacer preguntas en el [Foro de Make It Real](https://foro.makeitreal.camp/c/curso-javascript-sept-2020/6).
