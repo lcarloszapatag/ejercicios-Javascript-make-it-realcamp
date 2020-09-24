@@ -12,4 +12,7 @@ function Person(name,weight,height){
 
     Person.prototype.bmi=function(){
 
-      re
+      Person.prototype.bmi=function(){
+
+      return this.weight/this.height**2
+    }
