@@ -1,6 +1,7 @@
 # Introducción a JavaScript
 
-[img1]: ejercicios-Javascript-make-it-realcamp\Recursos\impulsa_curso_javascript.jpg  "impulsa y make it camp_curso javascript basico"
+![Con titulo]( https://github.com/lcarloszapatag/ejercicios-Javascript-make-it-realcamp/blob/master/Recursos/impulsa_curso%20_javascript.jpg?raw=true"titulo")
+
 
 ¡Hola! En este curso aprenderás las bases de JavaScript, el lenguaje más popular de la actualidad. Para más información y registro ingresa a [este link](https://makeitreal.camp/introduccion-a-javascript?utm_source=github&utm_medium=web&utm_campaign=inbound).
 
