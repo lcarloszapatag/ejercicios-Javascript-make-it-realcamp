@@ -3,9 +3,9 @@ const max = (obj) =>{
  
 if (typeof obj == 'object' && (  obj != null)){
 
-      return Object.keys(obj).reduce(
-        (a, b) => obj[a] > obj[b] ? a : b 
-      )
+
+
+      return Object.keys(obj).reduce(menorMayor(obj))
       
     }
      // return 'No object'
@@ -18,7 +18,16 @@ else{
   }
   
 }
-  
+
+
+ function menorMayor(obj){
+
+let objetoValor=(a, b) => obj[a] > obj[b] ? 
+ a : b 
+
+ return objetoValor
+
+ } 
 
 
 // escribe tu función acá
